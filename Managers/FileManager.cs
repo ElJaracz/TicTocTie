@@ -10,7 +10,7 @@ namespace TicTacToe.Managers
         {
             string sanitizedPlayer1 = player1Nick.Replace(" ", "_");
             string sanitizedPlayer2 = player2Nick.Replace(" ", "_");
-            filePath = $"C:\\Users\\Gorol\\Desktop\\TicTacToe\\{sanitizedPlayer1}_vs_{sanitizedPlayer2}.txt";
+            filePath = $"\\{sanitizedPlayer1}_vs_{sanitizedPlayer2}.txt";
         }
         public void Save(int turnNumber, string playerNick, char symbol, int choice)
         {
