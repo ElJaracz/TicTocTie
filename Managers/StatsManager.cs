@@ -7,7 +7,7 @@ namespace TicTacToe.Managers
 {
     internal class StatsManager
     {
-        private string filePath = "C:\\Users\\Gorol\\Desktop\\TicTacToe\\Stats.txt";
+        private string filePath = "\\Stats.txt";
         public Dictionary<string, int> LoadStats()
         {
             Dictionary<string, int> stats = new Dictionary<string, int>();
